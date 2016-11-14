@@ -11,7 +11,7 @@ load('Mid_SNR_Noisy_region_of_interest');
 lambda = 0.1; %sparsity regularization term
 
 h1=figure('units','normalized','outerposition',[0 0 1 1]);
-for kk = 1:100
+for kk = 1:20
     tic;
     [reconstructed_signal_from_Mid_SNR] = Sc_Denoising(Mid_SNR_Noisy_region_of_interest(:,kk), D_clean_high_snr, D_noisy_high_snr, lambda);
     t=toc;
