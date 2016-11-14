@@ -30,7 +30,7 @@ various spectral profiles can be represented as sparse linear combinations of el
 * **High SNR**: the peak of an Ha line at Euclid's flux limit has 3.5 sigma.
 
 * **Medium SNR**: the integrated Ha flux at Euclid's flux limit has 3.5 sigma. This is the
-  official survey specifcation.
+  official survey specification.
 
 * **Low SNR**: the integrated Ha flux at Euclid's flux limit is at noise level (sigma = 1).
 
